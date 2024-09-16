@@ -8,7 +8,7 @@ import { checkEndGame, checkWinnerFrom } from './logic/board.js'
 import { WinnerModal } from './components/WinnerModal.jsx'
 import { saveGameToStorage, resetGameStorage } from './logic/storage/index.js'
 import './App.css'
-
+//Primer comentario prueba gitHub
 function App() {
   //Dibujamos el tablero
   const [board, setBoard] = useState(() => {
