@@ -10,6 +10,7 @@ import { saveGameToStorage, resetGameStorage } from './logic/storage/index.js'
 import './App.css'
 //Primer comentario prueba gitHub
 //Segundo comentario para SecondBranch
+
 function App() {
   //Dibujamos el tablero
   const [board, setBoard] = useState(() => {
